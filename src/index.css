@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:300|Open+Sans+Condensed:300');
+
+body {
+  font-family: 'Comfortaa', cursive; 
+  display: block;
+  text-align: right;
+  background-color: #282828;
+  color: #559b00;
+  }
+.heading{
+  font-size: 40px;
+  padding: 2em 1.5em 0em 0em;
+  
+}
+
+.firstName{
+  color: gray;
+}
+
+.prof{
+  background-image: url(circle1.png);
+  width: 300px;
+  height: 300px;
+  margin: 5em 0em 0em 4em;
+  background-position: 50%;
+  border-radius: 50%;
+  background-color: #af1400;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.bod{
+  padding: 50em 0em 0em 0em;
+}
