@@ -19,9 +19,12 @@ function Title(){
   return (
     <div className="heading" data-aos="slide-left">
       <span className = "firstName">Mohammad </span> Irfan Khan
+      <br/>
+      <span className ="subheading"> software engineer </span>
     </div>
   );
 }
+
 function Img() {
   return(
     <div className="prof" data-aos="slide-right"> </div>
@@ -61,18 +64,26 @@ function Box1() {
 }
 function Box2() {
   return(
-    <div className="github"  data-aos="fade-up" data-aos-delay="600"> 
-      <i className="fa fa-github fa-3x" aria-hidden="true"> </i>
-      <span className="captionTag"> github </span>
-    </div>
+    
+      <div className="github"  data-aos="fade-up" data-aos-delay="600"> 
+        <a href="https://github.com/mkhanbas">
+          <i className="fa fa-github fa-3x" aria-hidden="true"> </i>
+        </a>
+        <span className="captionTag"> github </span>
+      </div>
+    
   );
 }
 function Box3() {
   return(
-    <div className="linkedIn"  data-aos="fade-up" data-aos-delay="800"> 
-      <i className="fa fa-linkedin-square fa-3x" aria-hidden="true"> </i>
-      <span className="captionTag"> linkedIn </span>
-    </div>
+    
+      <div className="linkedIn"  data-aos="fade-up" data-aos-delay="800"> 
+        <a href="https://www.linkedin.com/in/mohammad-khan-5a0592105">
+          <i className="fa fa-linkedin-square fa-3x" aria-hidden="true"> </i>
+        </a>
+        <span className="captionTag"> linkedIn </span>
+      </div>
+    
   );
 }
 

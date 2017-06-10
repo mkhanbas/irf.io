@@ -1,11 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Comfortaa:300|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400|Raleway:300');
 body {
   font-family: 'Comfortaa', cursive; 
-  
+  font-weight: 400;
   text-align: right;
   background-color: #282828;
   color: #559b00;
   }
+a{
+  color: #e0e0e0;
+}
 .theBody{
   display: flex;
   flex-direction: row;
@@ -18,10 +21,18 @@ body {
   padding: 2em 0em 0em 0em;
   order: 0;
   flex: 0 0 97.4%;
+  font-family: 'Comfortaa', cursive; 
+  font-weight: 300;
 }
 
 .firstName{
   color: darkgray;
+}
+
+.subheading{
+  font-size: 20px;
+  color: #e0e0e0;
+  font-family: 'Raleway', sans-serif;
 }
 
 .prof{
