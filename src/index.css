@@ -1,33 +1,146 @@
-@import url('https://fonts.googleapis.com/css?family=Comfortaa:300|Open+Sans+Condensed:300');
-
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:300|Raleway');
 body {
   font-family: 'Comfortaa', cursive; 
-  display: block;
+  
   text-align: right;
   background-color: #282828;
   color: #559b00;
   }
+.theBody{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+}
 .heading{
   font-size: 40px;
-  padding: 2em 1.5em 0em 0em;
-  
+  padding: 2em 0em 0em 0em;
+  order: 0;
+  flex: 0 0 97.4%;
 }
 
 .firstName{
-  color: gray;
+  color: darkgray;
 }
 
 .prof{
   background-image: url(circle1.png);
   width: 300px;
   height: 300px;
-  margin: 5em 0em 0em 4em;
+  margin: 4.6em 0em 0em 2em;
   background-position: 50%;
   border-radius: 50%;
   background-color: #af1400;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  order: 1;
+  flex: 0 0 300px;
+}
+
+.boxes{
+  width: 70%;
+  order: 2;
+  flex: 1 0 70%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  color: #e0e0e0;
 }
 
 .bod{
   padding: 50em 0em 0em 0em;
 }
+
+.meeting{
+  background-color: #559b00;
+  width: 225px;
+  height: 225px;
+  margin: 1.6em 0em 0em 0.8em;
+  padding: 0.5em 0em 0em 0em;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  order: 0;
+  flex: 0 0 225px;
+  font-size: 3em;
+  line-height: 30px;
+  display: inline-block;
+  position: relative;
+  background-position: center;
+}
+
+.resume{
+  background-color: #d49600;
+  width: 225px;
+  height: 225px;
+  margin: 1.6em 0em 0em 0.8em;
+  padding: 0.5em 0em 0em 0em;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  order: 1;
+  flex: 0 0 225px;
+  font-size: 3em;
+  line-height: 10px;
+  display: inline-block;
+  position: relative;
+  background-position: center;
+}
+
+.github{
+  background-color: #75369e;
+  width: 225px;
+  height: 225px;
+  margin: 1.37em 0em 0em 0.685em;
+  padding: 0.429em 0em 0em 0em;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  order: 2;
+  flex: 0 0 225px;
+  font-size: 3.5em;
+  line-height: 10px;
+  display: inline-block;
+  position: relative;
+  background-position: center;
+}
+
+.linkedIn{
+  background-color: #007ccd;
+  width: 225px;
+  height: 225px;
+  margin: 1.37em 0em 0em 0.685em;
+  padding: 0.429em 0em 0em 0em;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  order: 3;
+  flex: 0 0 225px;
+  font-size: 3.5em;
+  line-height: 10px;
+  display: inline-block;
+  position: relative;
+  background-position: center;
+}
+
+.captionTag{
+  font-size: 30px;
+  line-height: 50px;
+}
+
+.captionTagMeeting{
+  font-size: 30px;
+  line-height: 386px;
+  
+}
+
+.iconPush{
+  position: absolute;
+  text-align: center;
+  top: 15%;
+  line-height: 10px;
+  
+}
+
