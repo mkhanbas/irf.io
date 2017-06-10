@@ -17,14 +17,14 @@ function Body() {
 
 function Title(){
   return (
-    <div className="heading" data-aos="fade-left">
+    <div className="heading" data-aos="slide-left">
       <span className = "firstName">Mohammad </span> Irfan Khan
     </div>
   );
 }
 function Img() {
   return(
-    <div className="prof" data-aos="fade-right"> </div>
+    <div className="prof" data-aos="slide-right"> </div>
   );
 }
 
@@ -41,7 +41,7 @@ function Boxes() {
 
 function Box0() {
   return(
-    <div className="meeting">  
+    <div className="meeting"  data-aos="fade-up" data-aos-delay="200">  
       <span className="iconPush">
         <i className="fa fa-calendar fa-3x"> </i>
       </span>
@@ -51,7 +51,7 @@ function Box0() {
 }
 function Box1() {
   return(
-    <div className="resume" data-aos=""> 
+    <div className="resume"  data-aos="fade-up" data-aos-delay="400"> 
       <span className="iconPush">
         <i className="fa fa-file-text fa-3x"> </i>
       </span>
@@ -61,7 +61,7 @@ function Box1() {
 }
 function Box2() {
   return(
-    <div className="github" data-aos=""> 
+    <div className="github"  data-aos="fade-up" data-aos-delay="600"> 
       <i className="fa fa-github fa-3x" aria-hidden="true"> </i>
       <span className="captionTag"> github </span>
     </div>
@@ -69,7 +69,7 @@ function Box2() {
 }
 function Box3() {
   return(
-    <div className="linkedIn" data-aos=""> 
+    <div className="linkedIn"  data-aos="fade-up" data-aos-delay="800"> 
       <i className="fa fa-linkedin-square fa-3x" aria-hidden="true"> </i>
       <span className="captionTag"> linkedIn </span>
     </div>
