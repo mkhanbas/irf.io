@@ -140,3 +140,14 @@ ReactDOM.render(
   <Game />,
   document.getElementById('root')
 );
+
+
+
+
+
+
+<!-- Calendly link widget begin -->
+<link href="https://calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://calendly.com/assets/external/widget.js" type="text/javascript"></script>
+<a href="" onclick="Calendly.showPopupWidget('https://calendly.com/mkhanbas/30min');return false;">Schedule time with me</a>
+<!-- Calendly link widget end -->

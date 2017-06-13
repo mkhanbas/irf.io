@@ -82,11 +82,25 @@ a{
   display: inline-block;
   position: relative;
   background-position: center;
+  cursor: pointer;
 }
 
 .meeting:hover{
   -webkit-animation: pulse 1s 0.5 forwards;
   animation: pulse 1s 0.5 forwards;
+}
+
+.meeting > a{
+  position: absolute;
+  top: 0; right: 0;
+  bottom: 0; left: 0;
+ 
+}
+
+.calendly-inline-widget{
+  height: 95%;
+  min-width: 320px;
+  z-index: 1000;
 }
 
 .resume{
@@ -105,6 +119,7 @@ a{
   display: inline-block;
   position: relative;
   background-position: center;
+  z-index: 1;
 }
 
 .resume:hover{
@@ -135,6 +150,13 @@ a{
   animation: pulse 1s 0.5 forwards;
 }
 
+.github > a{
+  position: absolute;
+  top: 0; right: 0;
+  bottom: 0; left: 0;
+}
+
+
 .linkedIn{
   background-color: #007ccd;
   width: 225px;
@@ -156,6 +178,12 @@ a{
 .linkedIn:hover{
   -webkit-animation: pulse 1s 0.5 forwards;
   animation: pulse 1s 0.5 forwards;
+}
+
+.linkedIn > a{
+  position: absolute;
+  top: 0; right: 0;
+  bottom: 0; left: 0;
 }
 
 .captionTag{
