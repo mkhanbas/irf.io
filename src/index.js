@@ -6,7 +6,9 @@ import '../node_modules/aos/dist/aos.css';
 import AOS from 'aos';
 
 function Body() {
-  AOS.init();
+  AOS.init({
+      disable: window.innerWidth < 1406
+    });
   return(
     <div className="theBody">
       <Title />

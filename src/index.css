@@ -13,8 +13,10 @@ a{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
   align-content: center;
   align-items: center;
+  width: 100%;
 }
 .heading{
   font-size: 40px;
@@ -55,6 +57,7 @@ a{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
   align-content: center;
   align-items: center;
   color: #e0e0e0;
@@ -203,5 +206,45 @@ a{
   top: 15%;
   line-height: 10px;
   
+}
+
+@media only screen and (max-width: 1405px) {
+  .prof{
+    margin: 4.6em 0em 0em 0em;
+  }
+  .meeting{
+    margin: 1em 0em 0em 0em;
+  }
+  .resume{
+    margin: 1em 0em 0em 0em;
+  }
+  .github{
+    margin: 1em 0em 0em 0em;
+  }
+  .linkedIn{
+    margin: 1em 0em 0em 0em;
+  }
+  .boxes{
+    width: 400px;
+    flex: 0 0 400px;
+    justify-content: center;
+  }
+  .theBody{
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .aos-animate[data-aos][data-aos][data-aos-delay="200"], body[data-aos-delay="200"] .aos-animate[data-aos]{
+    transition-delay: 0s !important;
+  }
+  .aos-animate[data-aos][data-aos][data-aos-delay="400"], body[data-aos-delay="400"] .aos-animate[data-aos]{
+    transition-delay: 0s !important;
+  }
+  .aos-animate[data-aos][data-aos][data-aos-delay="600"], body[data-aos-delay="600"] .aos-animate[data-aos]{
+    transition-delay: 0s !important;
+  }
+  .aos-animate[data-aos][data-aos][data-aos-delay="800"], body[data-aos-delay="800"] .aos-animate[data-aos]{
+    transition-delay: 0s !important;
+  }
+
 }
 
