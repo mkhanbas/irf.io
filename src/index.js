@@ -6,9 +6,7 @@ import '../node_modules/aos/dist/aos.css';
 import AOS from 'aos';
 
 function Body() {
-  AOS.init({
-      disable: window.innerWidth < 1406
-    });
+  AOS.init();
   return(
     <div className="theBody">
       <Title />
@@ -71,8 +69,8 @@ class Boxes extends React.Component{
       width: '80%',
       height: '70%',
       zIndex: 150,
-      marginTop: '-22%',
-      marginLeft: '-40%',
+      top: '40%',
+      left: '35%'
     };
     
     return(
