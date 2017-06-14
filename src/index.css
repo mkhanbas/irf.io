@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400|Raleway:300');
+
 body {
   font-family: 'Comfortaa', cursive; 
   font-weight: 400;
@@ -10,19 +11,34 @@ a{
   color: #e0e0e0;
 }
 .theBody{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 100%;
 }
 .heading{
   font-size: 40px;
   padding: 2em 0em 0em 0em;
-  order: 0;
-  flex: 0 0 97.4%;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 97.4%;
+          flex: 0 0 97.4%;
   font-family: 'Comfortaa', cursive; 
   font-weight: 300;
 }
@@ -45,21 +61,41 @@ a{
   background-position: 50%;
   border-radius: 50%;
   background-color: #af1400;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  order: 1;
-  flex: 0 0 300px;
+  -webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+          box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 300px;
+          flex: 0 0 300px;
 }
 
 .boxes{
   width: 70%;
-  order: 2;
-  flex: 1 0 70%;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 70%;
+          flex: 1 0 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: #e0e0e0;
 }
 
@@ -77,9 +113,14 @@ a{
   padding: 0.5em 0em 0em 0em;
   text-align: center;
   border-radius: 3px;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  order: 0;
-  flex: 0 0 225px;
+  -webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+          box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 225px;
+          flex: 0 0 225px;
   font-size: 3em;
   line-height: 30px;
   display: inline-block;
@@ -114,9 +155,14 @@ a{
   padding: 0.5em 0em 0em 0em;
   text-align: center;
   border-radius: 3px;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  order: 1;
-  flex: 0 0 225px;
+  -webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+          box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 225px;
+          flex: 0 0 225px;
   font-size: 3em;
   line-height: 10px;
   display: inline-block;
@@ -138,9 +184,14 @@ a{
   padding: 0.429em 0em 0em 0em;
   text-align: center;
   border-radius: 3px;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  order: 2;
-  flex: 0 0 225px;
+  -webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+          box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 225px;
+          flex: 0 0 225px;
   font-size: 3.5em;
   line-height: 10px;
   display: inline-block;
@@ -168,9 +219,14 @@ a{
   padding: 0.429em 0em 0em 0em;
   text-align: center;
   border-radius: 3px;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  order: 3;
-  flex: 0 0 225px;
+  -webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+          box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 225px;
+          flex: 0 0 225px;
   font-size: 3.5em;
   line-height: 10px;
   display: inline-block;
@@ -226,25 +282,36 @@ a{
   }
   .boxes{
     width: 400px;
-    flex: 0 0 400px;
-    justify-content: center;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .theBody{
-    flex-direction: column;
-    flex-wrap: nowrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
   }
   .aos-animate[data-aos][data-aos][data-aos-delay="200"], body[data-aos-delay="200"] .aos-animate[data-aos]{
-    transition-delay: 0s !important;
+    -webkit-transition-delay: 0s !important;
+            transition-delay: 0s !important;
   }
   .aos-animate[data-aos][data-aos][data-aos-delay="400"], body[data-aos-delay="400"] .aos-animate[data-aos]{
-    transition-delay: 0s !important;
+    -webkit-transition-delay: 0s !important;
+            transition-delay: 0s !important;
   }
   .aos-animate[data-aos][data-aos][data-aos-delay="600"], body[data-aos-delay="600"] .aos-animate[data-aos]{
-    transition-delay: 0s !important;
+    -webkit-transition-delay: 0s !important;
+            transition-delay: 0s !important;
   }
   .aos-animate[data-aos][data-aos][data-aos-delay="800"], body[data-aos-delay="800"] .aos-animate[data-aos]{
-    transition-delay: 0s !important;
+    -webkit-transition-delay: 0s !important;
+            transition-delay: 0s !important;
   }
 
 }
-
