@@ -169,11 +169,25 @@ a{
   position: relative;
   background-position: center;
   z-index: 1;
+  cursor: pointer;
 }
 
 .resume:hover{
   -webkit-animation: pulse 1s 0.5 forwards;
   animation: pulse 1s 0.5 forwards;
+}
+
+.resume > a{
+  text-decoration: none;
+  position: absolute;
+  top: 0; right: 0;
+  bottom: 0; left: 0;
+ 
+}
+.SimplePDF {
+  width: 90%; /* width of pdf document box should be != 0 */
+  height: 90%; /* height of pdf document box should be != 0 */
+
 }
 
 .github{
@@ -254,6 +268,11 @@ a{
   font-size: 30px;
   line-height: 386px;
   
+}
+
+.captionTagResume{
+  font-size:30px;
+  line-height: 435px;
 }
 
 .iconPush{

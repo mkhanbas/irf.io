@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import spdf from "simple-react-pdf";
 import SkyLight from 'react-skylight';
 import './index.css';
 import '../node_modules/aos/dist/aos.css';
@@ -43,6 +44,7 @@ function Cale(){
   );
 }
 
+
 class Boxes extends React.Component{
   constructor(props){
     super(props);
@@ -56,10 +58,9 @@ class Boxes extends React.Component{
   }
     click0() {
       this.refs.simpleDialog.show()
-      this.show0 = true;
-      this.show1 = false;
-      this.show2 = false;
-      this.show3 = false; 
+    }
+    click1() {
+      this.refs.simpleDialog1.show()
     }
 
   render(){
@@ -135,11 +136,13 @@ class Box1 extends React.Component{
   
   render(){
     return(
-      <div className="resume"  data-aos="fade-up" data-aos-delay="400" style={{ display: this.show ? 'none' : 'inline-block'  }}> 
+      <div className="resume" href='Resume.pdf' target='_blank'  data-aos="fade-up" data-aos-delay="400" style={{ display: this.show ? 'none' : 'inline-block'  }}> 
+        <a href='Resume.pdf' target='_blank'> 
         <span className="iconPush">
           <i className="fa fa-file-text fa-3x"> </i>
         </span>
-        <span className="captionTagMeeting"> resume </span>
+        <span className="captionTagResume"> resumé </span>
+        </a>
       </div>
     );
   }
@@ -156,7 +159,7 @@ class Box2 extends React.Component{
     return(
       
         <div className="github"  data-aos="fade-up" data-aos-delay="600" style={{ display: this.show ? 'none' : 'inline-block'  }}> 
-          <a href="https://github.com/mkhanbas"></a>
+          <a href="https://github.com/mkhanbas" target='_blank'></a>
             <i className="fa fa-github fa-3x" aria-hidden="true"> </i>
           
           <span className="captionTag"> github </span>
@@ -177,7 +180,7 @@ class Box3 extends React.Component{
     return(
       
         <div className="linkedIn"  data-aos="fade-up" data-aos-delay="800" style={{ display: this.show ? 'none' : 'inline-block'  }}> 
-          <a href="https://www.linkedin.com/in/mohammad-khan-5a0592105"> </a>
+          <a href="https://www.linkedin.com/in/mohammad-khan-5a0592105" target='_blank'> </a>
             <i className="fa fa-linkedin-square fa-3x" aria-hidden="true"> </i>
           <span className="captionTag"> linkedIn </span>
         </div>
