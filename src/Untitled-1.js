@@ -151,3 +151,8 @@ ReactDOM.render(
 <script src="https://calendly.com/assets/external/widget.js" type="text/javascript"></script>
 <a href="" onclick="Calendly.showPopupWidget('https://calendly.com/mkhanbas/30min');return false;">Schedule time with me</a>
 <!-- Calendly link widget end -->
+
+<!-- Calendly inline widget begin -->
+<div class="calendly-inline-widget" data-url="https://calendly.com/mkhanbas/30min" style="min-width:320px;height:580px;"></div>
+<script type="text/javascript" src="https://calendly.com/assets/external/widget.js"></script>
+<!-- Calendly inline widget end -->

@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import spdf from "simple-react-pdf";
 import SkyLight from 'react-skylight';
 import './index.css';
 import '../node_modules/aos/dist/aos.css';
