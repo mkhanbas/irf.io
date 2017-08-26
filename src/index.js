@@ -71,7 +71,8 @@ class Boxes extends React.Component{
       zIndex: 150,
       top: '40%',
       left: '35%'
-    };
+        };
+      
     
     return(
       <div className="boxes">
@@ -106,14 +107,16 @@ class Box0 extends React.Component{
     this.state = {
       show: true
     }
+    const isMobile = this.state.isMobile;
+
   }
 
   
   render(){
   
-    
+    this.isMobile = true;
     return(
-      <div className="meeting"  data-aos="fade-up" data-aos-delay="200" style={{ display: this.show ? 'none' : 'inline-block' }}>  
+      <div className="meeting"  data-aos={this.isMobile ? "zoom-in" : "fade-up"} data-aos-delay="200" style={{ display: this.show ? 'none' : 'inline-block' }}>  
         <a onClick={this.props.onClick}> </a>
         
         <span className="iconPush" onClick={this.props.onClick}>
@@ -135,7 +138,7 @@ class Box1 extends React.Component{
   
   render(){
     return(
-      <div className="resume" href='Resume.pdf' target='_blank'  data-aos="fade-up" data-aos-delay="400" style={{ display: this.show ? 'none' : 'inline-block'  }}> 
+      <div className="resume" href='Resume.pdf' target='_blank'  data-aos="zoom-in" data-aos-delay="400" style={{ display: this.show ? 'none' : 'inline-block'  }}> 
         <a href='Resume.pdf' target='_blank'> 
         <span className="iconPush">
           <i className="fa fa-file-text fa-3x"> </i>
@@ -157,7 +160,7 @@ class Box2 extends React.Component{
   render(){
     return(
       
-        <div className="github"  data-aos="fade-up" data-aos-delay="600" style={{ display: this.show ? 'none' : 'inline-block'  }}> 
+        <div className="github"  data-aos="zoom-in" data-aos-delay="600" style={{ display: this.show ? 'none' : 'inline-block'  }}> 
           <a href="https://github.com/mkhanbas" target='_blank'></a>
             <i className="fa fa-github fa-3x" aria-hidden="true"> </i>
           
@@ -178,7 +181,7 @@ class Box3 extends React.Component{
   render(){
     return(
       
-        <div className="linkedIn"  data-aos="fade-up" data-aos-delay="800" style={{ display: this.show ? 'none' : 'inline-block'  }}> 
+        <div className="linkedIn"  data-aos="zoom-in" data-aos-delay="800" style={{ display: this.show ? 'none' : 'inline-block'  }}> 
           <a href="https://www.linkedin.com/in/mohammad-khan-5a0592105" target='_blank'> </a>
             <i className="fa fa-linkedin-square fa-3x" aria-hidden="true"> </i>
           <span className="captionTag"> linkedIn </span>
